@@ -1,0 +1,361 @@
+.heroheaders{
+    width: 100%;
+    min-height: 500px;
+    background-image:url(pexelnew.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; */
+   
+}
+.upp{
+    width:97% ;
+    height: 50px;
+/* background-color: red; */
+display: flex;
+justify-content: space-between;
+color: white;
+
+
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+}
+.pexel{
+    height: 35px;
+}
+.others{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.others button{
+    width: 80px;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+.middle{
+    width: 100%;
+    /* background-color: rosybrown; */
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+  
+}
+.searchholders{
+    width: 100%;
+    height: 100px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchiinside{
+    width: 600px;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+.photoholder{
+    display: flex;
+    color: black;
+    flex: 1;
+    /* border-radius: 10px; */
+   
+}
+.searchiinside input{
+    width:450px ;
+    background-color: #F7F7F7;
+    border: 0;
+    height: 90%;
+    border-radius: 10px;
+    outline: 0;
+}
+.photoholder img{
+    height: 45px;
+}
+.navsholder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.navswrapper{
+    display: flex;
+    width: 700px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    font-size: 20px;
+}
+.header3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ledtie{
+    border: 1px solid gray;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.container{
+     display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px 100px 100px 100px ;  */
+ width: 100%;
+    /* min-height: 2000px;  */
+    /* background-color: red; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    
+}
+.box1{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    background-image: url(./yxtj1nNSHv7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.box2{
+    /* border: 1px solid black; */
+    grid-row: span 3;
+    /* background-color: green; */
+    background-image: url(./website-development.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.box3{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    
+    background-image: url(./02\ LS\ Access\ violation\ occurred_R0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(home\ based\ online\ business-fiverr.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box6{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(char_534_valic_.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(Final\ rev\ 1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box8{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(./1236\ -\ PREVIEW\ ONLY\ A.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box9{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(yxtj1nNSHv7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box10{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(./quickly.6879514.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box11{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-hayriyenur-351892318-29336964.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box12{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-aymane-hanni-2148955127-30362072.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box13{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-vivika-stamolis-2150389923-31112548.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box14{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-sab-wang-62948913-31260165.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box15{
+    /* border: 1px solid black; */
+    grid-row: span 2;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(free-photo-of-refreshing-iced-beverages-held-by-two-hands.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box16{
+    /* border: 1px solid black; */
+    grid-row: span 3;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-photo-3672792.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}.box17{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-ebrart-p-748409988-18937197.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box18{
+    /* border: 1px solid black; */
+    grid-row: span 5;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-esra-afsar-123882149-30997529.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box19{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-holodna-29692543.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box20{
+    /* border: 1px solid black; */
+    grid-row: span 3;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-little-forest-2150377525-31249687.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box21{
+    /* border: 1px solid black; */
+    grid-row: span 3;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-richard-l-2150581203-31303375.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box22{
+    /* border: 1px solid black; */
+    grid-row: span 5;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-alina-rossoshanska-338724645-31281265.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box23{
+    /* border: 1px solid black; */
+    grid-row: span 4;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-alinaskazka-31337198.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.box24{
+    /* border: 1px solid black; */
+    grid-row: span 3;
+    /* background-color: gold; */
+    border-radius: 10px;
+    background-image: url(pexels-henry-acevedo-382866382-31169013.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
