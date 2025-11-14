@@ -497,8 +497,8 @@ img.shadow-dark {
 .profilepic {
     position: relative;
     z-index: 2;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     overflow: hidden;
     animation: morph 5s ease-in-out infinite alternate;
